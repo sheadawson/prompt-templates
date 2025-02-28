@@ -1,14 +1,16 @@
-## What is this?
+## Overview
 
 This repository contains an evolving and expanding collection of AI prompt templates aimed at supporting personal exploration, healing, learning and expression through researching and developing rich, transformational media – from essays to art, film, music, guided meditations/prayers. 
 
-## How to use it?
+## Usage
 
 The templates can be copy/pasted into any chat interface ie. [claude.ai](https://claude.ai), [chatgpt](https://chatgpt.com/) to initiate a customised chat experience optimised for a particular focus / purpose. I recommend [claude.ai](https://claude.ai) because a) I've found it to be the best at exploring transformational work, b) that is what I'm using to develop and test the templates, and c) [Anthopic](https://www.anthropic.com/)   are the most ethically aligned for me, of the leading AI giants.
 
-## The templates
+The templates can also be added to Claude Projects or similar "Knowledge Base" features of other AI chat applications.
 
-### Term / Concept Definition & Analysis
+## Term / Concept Definition & Analysis Templates
+
+What terms or concepts would you like to have a more comprehensive understanding of?
 
 The [Term Templates](https://github.com/sheadawson/prompt-templates/tree/main/Term) provide a comprehensive framework for exploring concepts from multiple dimensions, combining linguistic analysis, systems thinking, and scientific research with practical applications. 
 
@@ -16,7 +18,7 @@ Each module—from basic definitions to feedback loops and research findings—b
 
 Written in elegant prose that balances intellectual rigour with accessibility, these templates transform abstract terms into richly contextualised knowledge that illuminates their significance across diverse domains.
 
-#### Term - Base Definition
+### Term - Base Definition
 
 The [Define Term](https://github.com/sheadawson/prompt-templates/blob/main/Term/Term_BaseDefinition.md) template generates highly comprehensive and insightful definitions and analysis of any term or concept provided by the user. It features:
 
@@ -30,7 +32,7 @@ Its purpose is to help the user explore terms beyond basic definitions, revealin
 
 **Example usage**: Define "Joy"
 
-#### Term - Research
+### Term - Scientific Research
 
 The [Term Research](https://github.com/sheadawson/prompt-templates/blob/main/Term/Term_Research.md) template expands the Define Term template with scientific exploration across these key features:
 
@@ -44,7 +46,7 @@ This section builds on the base definition by taking conceptual understanding in
 
 **Example usage**: Analyse research on "Joy"
 
-#### Term - Feedback Loops
+### Term - Feedback Loops
 
 The [Term Feedback Loops](https://github.com/sheadawson/prompt-templates/blob/main/Term/Term_FeedbackLoops.md) template extends the Define Term template with systematic analysis of circular causality patterns through these key features:
 
@@ -59,16 +61,19 @@ This section builds on the base definition by examining the dynamic, cyclical pr
 
 **Example usage**: Analyse feedback loops involved in "Joy"
 
-## Surveys / Questionnaires
+## Surveys / Questionnaire Templates
+
+What specific question, challenge, decision or goal would you like to explore through a personalised questioning process? This approach can help uncover aspects of your situation you may not have fully articulated yet, leading to greater clarity and actionable insights.
+
 ### Dynamic Insight Survey
 
-The Dynamic Insight Survey template provides an interactive questioning framework that helps users achieve clarity through a structured yet flexible conversation process. Key features include:
+The [Dynamic Insight Survey](https://github.com/sheadawson/prompt-templates/blob/main/Survey/Survey_DynamicInsight%20.md) template provides an interactive questioning framework that helps users achieve clarity through a structured yet flexible conversation process. Key features include:
 
 - Goal identification to establish clear purpose and direction
 - Adaptive questioning protocol using 1-5 ratings with qualitative comments
 - Strategic question selection that builds on previous responses
 - Regular synthesis of insights throughout the conversation
-- Creation of tailored deliverables in the form of artifacts based on gathered insights
+- Creation of tailored deliverables in the form of artefacts based on gathered insights
 
 This template functions as a guided facilitation tool that transforms abstract goals into concrete action plans through systematic exploration of motivations, constraints, priorities and success metrics, all while maintaining an encouraging conversational tone.
 
