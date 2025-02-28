@@ -1,9 +1,7 @@
 ---
-version: "0.2"
+version: 0.2.1
 ---
 \<instructions> 
-$term = "{argument name="term"}" $mode = "{argument name="mode" default="full"}"
-
 Define $term using the following template, using British English spelling (en_GB)
 
 Write this definition as a collection of modular essay components, crafting each section with the following $proseStyle:
@@ -128,7 +126,9 @@ END_IF
 
 ### <span style="font-weight: normal">🌱</span> Wholesome & Unwholesome Patterns
 
-\<instruction>  Analyse how $term manifests in both wholesome/functional and unwholesome/dysfunctional patterns across systems. For each pattern type: Identify key characteristics of healthy/functional and unhealthy/dysfunctional expressions Examine how these patterns emerge and perpetuate Explore transition pathways between wholesome and unwholesome manifestations Consider intervention points for shifting from unwholesome to wholesome patterns. Express in the style defined as $proseStyle
+\<instruction>  
+
+Analyse how $term manifests in both wholesome/functional and unwholesome/dysfunctional patterns across systems. For each pattern type: Identify key characteristics of healthy/functional and unhealthy/dysfunctional expressions Examine how these patterns emerge and perpetuate Explore transition pathways between wholesome and unwholesome manifestations Consider intervention points for shifting from unwholesome to wholesome patterns. Express in the style defined as $proseStyle
 
 Structure the analysis with these subsections:
 
@@ -138,15 +138,26 @@ Describe healthy/functional manifestations across different system types Identif
 
 #### Unwholesome Patterns
 
-Describe unhealthy/dysfunctional manifestations Identify conditions that give rise to these patterns Examine impacts on system health Provide concrete examples from various domains. Express in the style defined as $proseStyle. 
+* Describe unhealthy/dysfunctional manifestations Identify conditions that give rise to these patterns 
+* Examine impacts on system health 
+* Provide concrete examples from various domains. 
+* Express in the style defined as $proseStyle. 
 
 #### Transformation Pathways
 
-Analyze how systems transition between wholesome and unwholesome patterns Identify key leverage points for intervention Describe practical strategies for pattern transformation Consider potential obstacles and how to address them. Express in the style defined as $proseStyle\</instruction> 
+* Analyse how systems transition between wholesome and unwholesome patterns. 
+* Identify key leverage points for intervention. 
+* Describe practical strategies for pattern transformation 
+* Consider potential obstacles and how to address them. 
+* Express in the style defined as $proseStyle
+
+ \</instruction> 
 
 ### System Examples & Analysis
 
-\<instruction>  Select 6-8 diverse examples from the system types listed below:
+\<instruction>  
+
+Select 6-8 diverse examples from the system types listed below:
 
 - **Ecological** (ecosystem dynamics, food webs, biogeochemical cycles)
 - **Biological** (cellular, organismal)
@@ -185,11 +196,14 @@ Give each example a level 4 markdown heading format
 - Describe how $term manifests in various art forms 
 - List examples of artists or works that embody or explore this term, use level 3 markdown headings and 1 paragraph of $proseStyle prose describing each 
 - Special attention to interventionist art if applicable 
-- Embody the persona of a neurodiverse creative genius / spiritual master on a comfortable yet stimulating dose of LSD. Describe potential applications in consciousness-transforming art, from: - Low/no-tech to high-tech - Conservative to radical approaches \</instruction> 
+- Embody the persona of a neurodiverse creative genius / spiritual master on a comfortable yet stimulating dose of LSD. Describe potential applications in consciousness-transforming art, from: - Low/no-tech to high-tech - Conservative to radical approaches   
+\</instruction> 
 
 ## <span style="font-weight: normal">💡</span> Relevance to Interests
 
-\<instruction>  For each of the interests listed below, contemplate the intersection of the interest with $term. Select the 4 most interesting, insightful and revealing reflections and write 2 paragraphs of stunning, evocative prose which beautifully embed your insights. These insights will then be used by the user to explore through further writing in essay format.  
+\<instruction>  
+
+For each of the interests listed below, contemplate the intersection of the interest with $term. Select the 4 most interesting, insightful and revealing reflections and write 2 paragraphs of stunning, evocative prose which beautifully embed your insights. These insights will then be used by the user to explore through further writing in essay format.  
 
 - metacrisis
 - education
@@ -200,15 +214,22 @@ Give each example a level 4 markdown heading format
 
 ## <span style="font-weight: normal">📚</span> Key Sources & Thinkers
 
-\<instruction>  List notable contributors to understanding this term and their key works. For coined concepts, include primary sources and major developments. \</instruction> 
+\<instruction>  
+List notable contributors to understanding this term and their key works. For coined concepts, include primary sources and major developments. 
+\</instruction> 
 
 ### <span style="font-weight: normal">💬</span> Famous Quotes
 
-\<instruction>  List key quotes using markdown blockquote format with italic text and attribution. Include brief commentary on contemporary relevance. \</instruction> 
+\<instruction>  
+* List key quotes using markdown block-quote format with italic text and attribution. 
+* Include brief commentary on contemporary relevance. 
+\</instruction> 
 
 ## <span style="font-weight: normal">🤔</span> Critiques
 
-\<instruction>  Present critiques using format:
+\<instruction>
+
+Present critiques using format:
 
 ### Argument title
 
@@ -224,26 +245,28 @@ _(context or implication note)_
 - **Analysis:** evaluation
 - _(potential resolutions)_ \</instruction> 
 
-## <span style="font-weight: normal">🤣</span> Intelligent Humor & Wit
+## <span style="font-weight: normal">🤣</span> Intelligent Humour & Wit
 
-\<instruction>  Explore how $term reveals amusing paradoxes and insights through these approaches:
+\<instruction>  
 
-2. **Cognitive Humor**
+Explore how $term reveals amusing paradoxes and insights through these approaches:
+
+1. **Cognitive Humor**
     - Identify surprising logical contradictions within the concept
     - Find unexpected connections that challenge assumptions
     - Look for absurdities that emerge when the concept is taken to extremes
     - Explore meta-humour about how we think about the concept
-3. **Observational Wit**
+2. **Observational Wit**
     - Note ironic manifestations in everyday life
     - Highlight amusing patterns in how people misunderstand or misuse the concept
     - Find humour in the gap between theory and practice
     - Consider how the concept might be viewed by aliens or future historians
-4. **Systemic Irony**
+3. **Systemic Irony**
     - Identify funny emergent properties or unintended consequences
     - Look for humorous loops or circular logic
     - Find paradoxical situations where attempting to apply the concept creates its opposite
     - Note amusing patterns that repeat across different scales or contexts
-5. **Cultural Commentary**
+4. **Cultural Commentary**
     - Find humour in how different groups or professions view the concept
     - Note funny evolutionary or historical patterns
     - Identify amusing cultural blind spots or collective delusions
@@ -258,8 +281,10 @@ For each approach:
 - Aim for the kind of wit that gets funnier the more you think about it
 - Consider including relevant quotes from comedians who have explored this territory meaningfully
 
-Remember: It's better to include no humor than forced humor. Only include genuinely insightful and amusing observations.
+Remember: It's better to include no humour than forced humour! Only include genuinely insightful and amusing observations.
 
 ## <span style="font-weight: normal">🎁</span> Bonus Section
 
-\<instruction>  Choose and document the most compelling additional insight that doesn't fit other sections. \</instruction> 
+\<instruction>  
+Choose and document the most compelling additional insight you can think of that doesn't fit other sections. 
+\</instruction> 
