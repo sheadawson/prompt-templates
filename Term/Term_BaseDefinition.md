@@ -32,11 +32,15 @@ In general, go from a focus on the underlying systemic pattern of $term, and tou
 
 ## <span style="font-weight: normal">📕</span> Description
 
-\<instruction>  Introduction to $term. 3-4 paragraphs for someone who knows nothing about it. \</instruction> 
+\<instruction>  
+Introduction to $term. 3-4 paragraphs for someone who knows nothing about it. \</instruction> 
 
 ## <span style="font-weight: normal">📕</span> Dictionary Definition
 
-\<instruction>  IF $termType == "word": Definition FROM OXFORD ENGLISH DICTIONARY, in a numbered list if multiple definitions exist ELSE: SKIP THIS SECTION \</instruction> 
+\<instruction> 
+IF $termType == "word": Definition FROM OXFORD ENGLISH DICTIONARY, in a numbered list if multiple definitions exist 
+ELSE: SKIP THIS SECTION 
+\</instruction> 
 
 ## <span style="font-weight: normal">📜</span> Etymology & Origin
 
@@ -89,7 +93,7 @@ IF "concept" IN $termType: Also provide: 1. When the term gained significant the
 
 ### <span style="font-weight: normal">💡</span> Insights
 
-\<instruction>  What insights does the etymology/origin reveal that would be valuable for our civilisation? 3-4 paragraphs max. \</instruction> 
+\<instruction>  What insights does the etymology/origin reveal that would be valuable for our civilisation? 2-3 paragraphs max. \</instruction> 
 
 ## <span style="font-weight: normal">👅</span> Language Analysis
 
@@ -99,11 +103,11 @@ IF "word" IN $termType:
 
  ### <span style="font-weight: normal">🔀</span> Synonyms 
  
- Bullet list of synonyms in format "synonym (description)"
+ Bullet list of up to 5 synonyms in format "synonym (description)"
  
  ### <span style="font-weight: normal">🔄</span> Antonyms 
  
- Bullet list of antonyms in format "antonym (description)"`
+ Bullet list of up to 5 antonyms in format "antonym (description)"`
 
 END_IF
 
@@ -111,7 +115,7 @@ IF "concept" IN $termType:
 
  ### <span style="font-weight: normal">🔀</span> Related Concepts 
  
-Bullet list of related terminology in format: * term (description) _(relationship to main concept)_ \
+Bullet list (up to 5) of related terminology in format: * term (description) _(relationship to main concept)_ \
 
 END_IF
 
@@ -128,20 +132,27 @@ END_IF
 
 \<instruction>  
 
-Analyse how $term manifests in both wholesome/functional and unwholesome/dysfunctional patterns across systems. For each pattern type: Identify key characteristics of healthy/functional and unhealthy/dysfunctional expressions Examine how these patterns emerge and perpetuate Explore transition pathways between wholesome and unwholesome manifestations Consider intervention points for shifting from unwholesome to wholesome patterns. Express in the style defined as $proseStyle
+- Analyse how $term manifests in both wholesome/functional and unwholesome/dysfunctional patterns across systems. 
+- For each pattern type: Identify key characteristics of healthy/functional and unhealthy/dysfunctional expressions 
+- Examine how these patterns emerge and perpetuate 
+- Explore transition pathways between wholesome and unwholesome manifestations Consider intervention points for shifting from unwholesome to wholesome patterns. 
+- Express in 2 - 3 paragraphs in the style defined as $proseStyle
 
 Structure the analysis with these subsections:
 
 #### Wholesome Patterns
 
-Describe healthy/functional manifestations across different system types Identify conditions that support these patterns Explore how these patterns contribute to system health Provide concrete examples from various domains. Express in the style defined as $proseStyle
+- Describe healthy/functional manifestations across different system types Identify conditions that support these patterns 
+- Explore how these patterns contribute to system health 
+- Provide concrete examples from various domains. 
+- Express in 2 - 3 paragraphs in the style defined as $proseStyle
 
 #### Unwholesome Patterns
 
 * Describe unhealthy/dysfunctional manifestations Identify conditions that give rise to these patterns 
 * Examine impacts on system health 
 * Provide concrete examples from various domains. 
-* Express in the style defined as $proseStyle. 
+* . Express in 2 - 3 paragraphs in the style defined as $proseStyle. 
 
 #### Transformation Pathways
 
@@ -149,7 +160,7 @@ Describe healthy/functional manifestations across different system types Identif
 * Identify key leverage points for intervention. 
 * Describe practical strategies for pattern transformation 
 * Consider potential obstacles and how to address them. 
-* Express in the style defined as $proseStyle
+* Express in 2 - 3 paragraphs in the style defined as $proseStyle in the style defined as $proseStyle
 
  \</instruction> 
 
@@ -157,7 +168,7 @@ Describe healthy/functional manifestations across different system types Identif
 
 \<instruction>  
 
-Select 6-8 diverse examples from the system types listed below:
+Select up to 4 diverse examples from the system types listed below:
 
 - **Ecological** (ecosystem dynamics, food webs, biogeochemical cycles)
 - **Biological** (cellular, organismal)
@@ -194,9 +205,8 @@ Give each example a level 4 markdown heading format
 
 \<instruction>  
 - Describe how $term manifests in various art forms 
-- List examples of artists or works that embody or explore this term, use level 3 markdown headings and 1 paragraph of $proseStyle prose describing each 
+- Bullet list examples of artists or works that embody or explore this term in the format (artist - brief description of work)
 - Special attention to interventionist art if applicable 
-- Embody the persona of a neurodiverse creative genius / spiritual master on a comfortable yet stimulating dose of LSD. Describe potential applications in consciousness-transforming art, from: - Low/no-tech to high-tech - Conservative to radical approaches   
 \</instruction> 
 
 ## <span style="font-weight: normal">💡</span> Relevance to Interests
@@ -215,14 +225,13 @@ For each of the interests listed below, contemplate the intersection of the inte
 ## <span style="font-weight: normal">📚</span> Key Sources & Thinkers
 
 \<instruction>  
-List notable contributors to understanding this term and their key works. For coined concepts, include primary sources and major developments. 
+Bullet list 4 or so notable contributors to understanding this term and their key works. For coined concepts, include primary sources and major developments. 
 \</instruction> 
 
 ### <span style="font-weight: normal">💬</span> Famous Quotes
 
 \<instruction>  
 * List key quotes using markdown block-quote format with italic text and attribution. 
-* Include brief commentary on contemporary relevance. 
 \</instruction> 
 
 ## <span style="font-weight: normal">🤔</span> Critiques
@@ -286,5 +295,5 @@ Remember: It's better to include no humour than forced humour! Only include genu
 ## <span style="font-weight: normal">🎁</span> Bonus Section
 
 \<instruction>  
-Choose and document the most compelling additional insight you can think of that doesn't fit other sections. 
+Select and document the most compelling additional insight you can think of that doesn't fit other sections. 
 \</instruction> 
