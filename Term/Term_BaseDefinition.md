@@ -1,5 +1,5 @@
 ---
-version: 0.2.1
+version: 0.2.2
 ---
 \<instructions> 
 Define $term using the following template, using British English spelling (en_GB)
@@ -28,12 +28,10 @@ Establish the $termType. It can be both a "word" and/or "concept" as defined bel
 
 Include Dictionary, Etymology, Synonyms and Antonyms sections if $termType includes "word". Include Origin Story and Related Terms if $termType includes "concept".
 
-In general, go from a focus on the underlying systemic pattern of $term, and touch on the various appearances it makes on the surface across varying domains and scales.\</instructions>
+In general, go from a focus on the underlying systemic pattern of $term, and touch on the various appearances it makes on the surface across varying domains and scales.
 
-## <span style="font-weight: normal">📕</span> Description
-
-\<instruction>  
-Introduction to $term. 3-4 paragraphs for someone who knows nothing about it. \</instruction> 
+Ask the user if they want to include the suggested expansions section before generating that part.
+\</instructions>
 
 ## <span style="font-weight: normal">📕</span> Dictionary Definition
 
@@ -124,6 +122,11 @@ END_IF
 
 \<instruction>  STOP HERE IF $mode == "simple", other-wise continue with the full comprehensive definition without asking for any confirmations.  \</instruction> 
 
+## <span style="font-weight: normal">📕</span> Description
+
+\<instruction>  
+Introduction to $term. 3-4 paragraphs for someone who knows nothing about it. \</instruction> 
+
 ## <span style="font-weight: normal">🕸️</span> Systems Thinking
 
 \<instruction>  Write an introduction describing how $term fundamentally relates to systems thinking. How does it influence systems? What role does it play?\</instruction> 
@@ -164,63 +167,32 @@ Structure the analysis with these subsections:
 
  \</instruction> 
 
-### System Examples & Analysis
+\<instruction>
+Stop here. Ask for confirmation before proceeding to further sections
+\</instruction>
 
-\<instruction>  
 
-Select up to 4 diverse examples from the system types listed below:
+## <span style="font-weight: normal">🌹</span> Aesthetic Dimensions 
 
-- **Ecological** (ecosystem dynamics, food webs, biogeochemical cycles)
-- **Biological** (cellular, organismal)
-- **Social** (cultural, political, economic)
-- **Educational** (pedagogical, developmental)
-- **Spiritual** (religious, ritualistic, sacred, mythological, contemplative)
-- **Philosophical** (epistemological, ethical)
-- **Socio-ecological** (human-environment interaction)
-- **Psycho-social** (group dynamics)
+\<instruction> 
+Explore how $term manifests through aesthetic and sublime dimensions, focusing on: 
 
-For each example: 
+1. **Functional Beauty** 
+	- How does $term embody elegant solutions or harmonious processes? 
+	- What makes certain expressions of $term more aesthetically satisfying than others? 
+	- How might $term demonstrate an inherent elegance, proportion, or "rightness" in its optimal form? 
+2. **The Sublime Aspect** 
+	- How does $term potentially connect to experiences of awe, wonder, or transcendence? 
+	- What paradoxical or contradictory qualities does $term embody that create tension and depth? 
+	- How might $term bridge ordinary experience with deeper or elevated states of consciousness? 
+3. **Depth Beyond Utility** 
+	- What aesthetic wisdom does $term contain that goes beyond mere functionality? 
+	- How have profound artistic expressions of $term revealed hidden dimensions not captured by analysis? 
+	- What sensory or emotional resonances of $term provide insights that logical examination might miss? 
+	
+Express in 2-3 paragraphs in the style defined as $proseStyle, focusing on how aesthetic considerations provide unique perspectives on $term. Aim for depth rather than breadth, exploring how beauty reveals essential truths about $term that might otherwise remain hidden. 
+\</instruction>
 
-\<think>  
-1. Identify the key system patterns from that drive or emerge from this manifestation. System patterns include:  
-	1. **Hierarchical**: Nested loops, Fractal organisation, Command chains, Modular hierarchy  
-	2. **Cyclical**: Feedback loops, Oscillations, Resource cycles, Growth cycles  
-	3. **Networked**: Hub and spoke, Mesh networks, Small world, Scale-free  
-	4. **Adaptive**: Self-organising, Evolutionary, Learning systems, Antifragile  
-	5. **Flow-based**: Stock and flow, Bottlenecks, Queuing, Distribution networks  
-	6. **Threshold**: Tipping points, Phase transitions, Carrying capacity, Critical mass  
-2. Connect these patterns to the most relevant/applicable system archetypes:  
-	1. **Senge Archetypes**: Limits to Growth, Shifting the Burden, Eroding Goals, Escalation, Success to the Successful, Tragedy of the Commons, Fixes that Fail, Growth and Underinvestment, Accidental Adversaries, Attractiveness Principle  
-	2. **Post-Senge** **Archetypes**: Ability-Motivation-Opportunity, Achieving Synergy, Authority-Power-Influence, Capacity-Flow-Inventory, Competence-Capability-Culture, Demand-Supply-Performance, Knowledge-Learning-Innovation, Planning-Control-Action, Quality-Service-Value, Risk-Safety-Protection  
-3. Consider the implications for system behaviour and evolution Structure each example to show how patterns and archetypes interweave to create the observed system behaviour. Focus on examples that reveal different facets of the term and demonstrate its role across scales and contexts.  
-4. Consider how it manifests as both a property and a process in systems.  
-\</think>  
-  
-Write your thoughts from the above step for each example in 2 paragraphs of stunning, evocative prose with a clear description of the insights revealed to you. These insights will then be used by the user to explore through further writing in essay format.  
-
-Give each example a level 4 markdown heading format 
-\</instruction> 
-
-## <span style="font-weight: normal">🎵</span> Artistic Expression
-
-\<instruction>  
-- Describe how $term manifests in various art forms 
-- Bullet list examples of artists or works that embody or explore this term in the format (artist - brief description of work)
-- Special attention to interventionist art if applicable 
-\</instruction> 
-
-## <span style="font-weight: normal">💡</span> Relevance to Interests
-
-\<instruction>  
-
-For each of the interests listed below, contemplate the intersection of the interest with $term. Select the 4 most interesting, insightful and revealing reflections and write 2 paragraphs of stunning, evocative prose which beautifully embed your insights. These insights will then be used by the user to explore through further writing in essay format.  
-
-- metacrisis
-- education
-- enlightenment / awakening / consciousness evolution
-- parenting / family / relationships
-
- \</instruction> 
 
 ## <span style="font-weight: normal">📚</span> Key Sources & Thinkers
 
@@ -297,3 +269,17 @@ Remember: It's better to include no humour than forced humour! Only include genu
 \<instruction>  
 Select and document the most compelling additional insight you can think of that doesn't fit other sections. 
 \</instruction> 
+
+## <span style="font-weight: normal">➕</span> Suggested Expansions 
+
+\<instruction>
+- **Expanding systems thinking** offer 5 options for an additional section within the systems thinking section. The options should be profound, illuminating and helpful to humanity in this time. For each option, include a section title and up to a 50 word overview.
+- **Interdisciplinary Connections**: "Suggest 3-4 unexpected disciplines where this concept has relevance but is underexplored. For each discipline, explain the potential connection and why cross-pollination would be valuable
+- **Future Trajectories**: "Outline 3-4 possible evolutionary paths for how this concept might develop over the next 50 years. Include technological, cultural, and philosophical dimensions.
+- **Personal Integration**: "Provide 3-5 reflective practices or exercises that would help someone embody and integrate this concept into their daily life, thinking, and decision-making."
+- **Conceptual Reframing**: "Present 3-4 alternative metaphors or frameworks for understanding this concept that might unlock new insights or overcome common misconceptions."
+- **Visual Representations**: "Describe 3-4 visual models or diagrams that could represent this concept in ways text alone cannot capture, explaining the key insights each visual would convey."
+- **Systemic Leverage Points**: "Identify 3-5 high-leverage intervention points where this concept could transform systems currently facing challenges or limitations."
+- **Generative Questions**: "Offer 3-5 profound questions about this concept that could spark new research, dialogue, or innovation if seriously explored."
+- **Cross-Cultural Perspectives**: "Explore how this concept is understood in 4-5 different cultural or philosophical traditions around the world, highlighting unique insights from each perspective."
+\</instruction>
